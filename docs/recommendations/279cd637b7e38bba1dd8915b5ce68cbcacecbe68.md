@@ -11,7 +11,7 @@ hide:
 
 <body>
   <p>
-  <i class="footer">This page was last updated on 2024-07-23 15:58:21 UTC</i>
+  <i class="footer">This page was last updated on 2024-07-23 16:32:48 UTC</i>
   </p>
   
   <div class="note info" onclick="startIntro()">
@@ -49,7 +49,7 @@ hide:
             Andreas Doerr, Christian Daniel, Martin Schiegg, D. Nguyen-Tuong, S. Schaal, Marc Toussaint, Sebastian Trimpe
           </td>
           <td>2018-01-31</td>
-          <td>ArXiv, MAG, DBLP</td>
+          <td>DBLP, MAG, ArXiv</td>
           <td>110</td>
           <td>93</td>
         </tr>
@@ -137,7 +137,7 @@ hide:
             R. G. Krishnan, Uri Shalit, D. Sontag
           </td>
           <td>2016-09-30</td>
-          <td>ArXiv, MAG, DBLP</td>
+          <td>DBLP, MAG, ArXiv</td>
           <td>421</td>
           <td>48</td>
         </tr>
