@@ -667,7 +667,7 @@
 
 <body>
   <p>
-  <i class="footer">This page was last updated on 2024-07-22 06:05:50 UTC</i>
+  <i class="footer">This page was last updated on 2024-07-23 15:58:52 UTC</i>
   </p>
 
   <div class="note info" onclick="startIntro()">
@@ -770,18 +770,6 @@
           <td>9</td>
         </tr>
 
-        <tr id="Neural ordinary differential equations (Neural ODEs) is a class of machine learning models that approximate the time derivative of hidden states using a neural network. They are powerful tools for modeling continuous-time dynamical systems, enabling the analysis and prediction of complex temporal behaviors. However, how to improve the model's stability and physical interpretability remains a challenge. This paper introduces new conservation relations in Neural ODEs using Lie symmetries in both the hidden state dynamics and the back propagation dynamics. These conservation laws are then incorporated into the loss function as additional regularization terms, potentially enhancing the physical interpretability and generalizability of the model. To illustrate this method, the paper derives Lie symmetries and conservation laws in a simple Neural ODE designed to monitor charged particles in a sinusoidal electric field. New loss functions are constructed from these conservation relations, demonstrating the applicability symmetry-regularized Neural ODE in typical modeling tasks, such as data-driven discovery of dynamical systems.">
-          <td id="tag"><i class="material-icons">visibility_off</i></td>
-          <td><a href="https://www.semanticscholar.org/paper/9827f402bc2fc9561f674b5bdfc992fb7dd32e2e" target='_blank'>Symmetry-regularized neural ordinary differential equations</a></td>
-          <td>
-            Wenbo Hao
-          </td>
-          <td>2023-11-28</td>
-          <td>ArXiv</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-
         <tr id="Training neural ODEs on large datasets has not been tractable due to the necessity of allowing the adaptive numerical ODE solver to refine its step size to very small values. In practice this leads to dynamics equivalent to many hundreds or even thousands of layers. In this paper, we overcome this apparent difficulty by introducing a theoretically-grounded combination of both optimal transport and stability regularizations which encourage neural ODEs to prefer simpler dynamics out of all the dynamics that solve a problem well. Simpler dynamics lead to faster convergence and to fewer discretizations of the solver, considerably decreasing wall-clock time without loss in performance. Our approach allows us to train neural ODE based generative models to the same performance as the unregularized dynamics in just over a day on one GPU, whereas unregularized dynamics can take up to 4-6 days of training time on multiple GPUs. This brings neural ODEs significantly closer to practical relevance in large-scale applications.">
           <td id="tag"><i class="material-icons">visibility_off</i></td>
           <td><a href="https://www.semanticscholar.org/paper/a4375125ee9900d1a5f090f433d5348601cb9989" target='_blank'>How to train your neural ODE</a></td>
@@ -789,8 +777,8 @@
             Chris Finlay, J. Jacobsen, L. Nurbekyan, Adam M. Oberman
           </td>
           <td>2020-02-07</td>
-          <td>MAG, ArXiv, DBLP</td>
-          <td>247</td>
+          <td>ArXiv, MAG, DBLP</td>
+          <td>246</td>
           <td>30</td>
         </tr>
 
@@ -804,6 +792,18 @@
           <td>ArXiv</td>
           <td>161</td>
           <td>12</td>
+        </tr>
+
+        <tr id="We propose a novel second-order optimization framework for training the emerging deep continuous-time models, specifically the Neural Ordinary Differential Equations (Neural ODEs). Since their training already involves expensive gradient computation by solving a backward ODE, deriving efficient second-order methods becomes highly nontrivial. Nevertheless, inspired by the recent Optimal Control (OC) interpretation of training deep networks, we show that a specific continuous-time OC methodology, called Differential Programming, can be adopted to derive backward ODEs for higher-order derivatives at the same O(1) memory cost. We further explore a low-rank representation of the second-order derivatives and show that it leads to efficient preconditioned updates with the aid of Kronecker-based factorization. The resulting method -- named SNOpt -- converges much faster than first-order baselines in wall-clock time, and the improvement remains consistent across various applications, e.g. image classification, generative flow, and time-series prediction. Our framework also enables direct architecture optimization, such as the integration time of Neural ODEs, with second-order feedback policies, strengthening the OC perspective as a principled tool of analyzing optimization in deep learning. Our code is available at https://github.com/ghliu/snopt.">
+          <td id="tag"><i class="material-icons">visibility_off</i></td>
+          <td><a href="https://www.semanticscholar.org/paper/a942ad9c5d0699af8980246e8dc196ce4fe91a21" target='_blank'>Second-Order Neural ODE Optimizer</a></td>
+          <td>
+            Guan-Horng Liu, T. Chen, Evangelos A. Theodorou
+          </td>
+          <td>2021-09-29</td>
+          <td>ArXiv, DBLP</td>
+          <td>11</td>
+          <td>42</td>
         </tr>
 
   </tbody>
