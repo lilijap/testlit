@@ -667,7 +667,7 @@
 
 <body>
   <p>
-  <i class="footer">This page was last updated on 2024-07-29 06:20:13 UTC</i>
+  <i class="footer">This page was last updated on 2024-08-05 06:20:34 UTC</i>
   </p>
 
   <div class="note info" onclick="startIntro()">
@@ -705,7 +705,7 @@
             P. Battaglia, Razvan Pascanu, Matthew Lai, Danilo Jimenez Rezende, K. Kavukcuoglu
           </td>
           <td>2016-12-01</td>
-          <td>DBLP, MAG, ArXiv</td>
+          <td>MAG, DBLP, ArXiv</td>
           <td>1297</td>
           <td>71</td>
         </tr>
@@ -732,18 +732,6 @@
           <td>ArXiv</td>
           <td>1</td>
           <td>43</td>
-        </tr>
-
-        <tr id="Planning - the ability to analyze the structure of a problem in the large and decompose it into interrelated subproblems - is a hallmark of human intelligence. While deep reinforcement learning (RL) has shown great promise for solving relatively straightforward control tasks, it remains an open problem how to best incorporate planning into existing deep RL paradigms to handle increasingly complex environments. One prominent framework, Model-Based RL, learns a world model and plans using step-by-step virtual rollouts. This type of world model quickly diverges from reality when the planning horizon increases, thus struggling at long-horizon planning. How can we learn world models that endow agents with the ability to do temporally extended reasoning? In this work, we propose to learn graph-structured world models composed of sparse, multi-step transitions. We devise a novel algorithm to learn latent landmarks that are scattered (in terms of reachability) across the goal space as the nodes on the graph. In this same graph, the edges are the reachability estimates distilled from Q-functions. On a variety of high-dimensional continuous control tasks ranging from robotic manipulation to navigation, we demonstrate that our method, named L3P, significantly outperforms prior work, and is oftentimes the only method capable of leveraging both the robustness of model-free RL and generalization of graph-search algorithms. We believe our work is an important step towards scalable planning in reinforcement learning.">
-          <td id="tag"><i class="material-icons">visibility_off</i></td>
-          <td><a href="https://www.semanticscholar.org/paper/5cf549e26b4dce19d5bc783de83047479ce6218a" target='_blank'>World Model as a Graph: Learning Latent Landmarks for Planning</a></td>
-          <td>
-            Lunjun Zhang, Ge Yang, Bradly C. Stadie
-          </td>
-          <td>2020-11-25</td>
-          <td>ArXiv</td>
-          <td>62</td>
-          <td>11</td>
         </tr>
 
         <tr id="World models for environments with many objects face a combinatorial explosion of states: as the number of objects increases, the number of possible arrangements grows exponentially. In this paper, we learn to generalize over robotic pick-and-place tasks using object-factored world models, which combat the combinatorial explosion by ensuring that predictions are equivariant to permutations of objects. Previous object-factored models were limited either by their inability to model actions, or by their inability to plan for complex manipulation tasks. We build on recent contrastive methods for training object-factored world models, which we extend to model continuous robot actions and to accurately predict the physics of robotic pick-and-place. To do so, we use a residual stack of graph neural networks that receive action information at multiple levels in both their node and edge neural networks. Crucially, our learned model can make predictions about tasks not represented in the training data. That is, we demonstrate successful zero-shot generalization to novel tasks, with only a minor decrease in model performance. Moreover, we show that an ensemble of our models can be used to plan for tasks involving up to 12 pick and place actions using heuristic search. We also demonstrate transfer to a physical robot.">
@@ -778,7 +766,7 @@ We introduce Interactive Differentiable Simulation (IDS), a differentiable physi
             Nicholas Watters, Daniel Zoran, T. Weber, P. Battaglia, Razvan Pascanu, A. Tacchetti
           </td>
           <td>2017-06-05</td>
-          <td>DBLP, MAG, ArXiv</td>
+          <td>MAG, DBLP, ArXiv</td>
           <td>259</td>
           <td>67</td>
         </tr>
@@ -803,8 +791,20 @@ We introduce Interactive Differentiable Simulation (IDS), a differentiable physi
           </td>
           <td>2019-09-12</td>
           <td>ArXiv</td>
-          <td>77</td>
+          <td>78</td>
           <td>68</td>
+        </tr>
+
+        <tr id="There has been an increasing interest in learning dynamics simulators for model-based control. Compared with off-the-shelf physics engines, a learnable simulator can quickly adapt to unseen objects, scenes, and tasks. However, existing models like interaction networks only work for fully observable systems; they also only consider pairwise interactions within a single time step, both restricting their use in practical systems. We introduce Propagation Networks (PropNet), a differentiable, learnable dynamics model that handles partially observable scenarios and enables instantaneous propagation of signals beyond pairwise interactions. With these innovations, our propagation networks not only outperform current learnable physics engines in forward simulation, but also achieves superior performance on various control tasks. Compared with existing deep reinforcement learning algorithms, model-based control with propagation networks is more accurate, efficient, and generalizable to novel, partially observable scenes and tasks.">
+          <td id="tag"><i class="material-icons">visibility_off</i></td>
+          <td><a href="https://www.semanticscholar.org/paper/d920e8c8493efcc7bdcd96d06228b564e788806d" target='_blank'>Propagation Networks for Model-Based Control Under Partial Observation</a></td>
+          <td>
+            Yunzhu Li, Jiajun Wu, Jun-Yan Zhu, J. Tenenbaum, A. Torralba, Russ Tedrake
+          </td>
+          <td>2018-09-28</td>
+          <td>2019 International Conference on Robotics and Automation (ICRA)</td>
+          <td>123</td>
+          <td>127</td>
         </tr>
 
   </tbody>
